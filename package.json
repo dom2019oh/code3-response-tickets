@@ -1,0 +1,20 @@
+{
+  "name": "community-tickets-bot",
+  "version": "1.0.0",
+  "description": "A Discord ticketing bot with a dropdown panel, claim/close controls and saved transcripts. Built by Buildable Labs Studio in affiliation with Midland County.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Buildable Labs Studio",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
